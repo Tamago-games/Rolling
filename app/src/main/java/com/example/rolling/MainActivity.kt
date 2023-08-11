@@ -48,7 +48,7 @@ private fun RollingDice(
         mutableStateOf(1)
     }
 
-    var imageResource = when(result){
+    val imageResource = when(result){
         1 -> R.drawable.dice_1
         2 -> R.drawable.dice_2
         3 -> R.drawable.dice_3
